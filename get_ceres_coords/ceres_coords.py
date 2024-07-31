@@ -166,7 +166,7 @@ def LSTLTD(X: float, ARRAY: tuple[int]) -> int:
     return BEGIN
 
 
-def get_type21_coords(dateInSeconds, ceres_file: bytes):
+def ceres_coords(dateInSeconds, ceres_file: bytes):
     total_summaries_number = 10
 
     arrayInfoOffset = 0
