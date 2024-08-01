@@ -323,7 +323,7 @@ def ceres_coords(dateInSeconds, ceres_file: bytes):
                         )
                         break
                 if not final_record:
-                    print("ceres final records sec = ", dateInSeconds)
+                    # print("ceres final records sec = ", dateInSeconds)
                     Ind = n_of_rec % BUFSIZ
                     data = array.array(
                         "d",
